@@ -1,7 +1,7 @@
 getgenv().farmer = true;
 
 while wait() do
-       if getgenv().farmer == true then
+    if getgenv().farmer == true then
            game:GetService("ReplicatedStorage").Remotes.Search:FireServer()
-     end
+    end
 end
